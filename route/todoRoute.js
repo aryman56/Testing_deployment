@@ -14,7 +14,7 @@ router.get("/fetchAllTodo", handleFetchAllTodo);
 
 
 router.get("/hello", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World12");
 });
 
 // Route 2  // Create  todo by the reqhttp://localhost:3000/todoList/createtodo
