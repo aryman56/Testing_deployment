@@ -12,6 +12,11 @@ const router = express.Router();
 // Route 1 // fetching all todos by the req http://localhost:3000/todoList/fetchAllTodo
 router.get("/fetchAllTodo", handleFetchAllTodo);
 
+
+router.get("/hello", (req, res) => {
+  res.send("Hello World!");
+});
+
 // Route 2  // Create  todo by the reqhttp://localhost:3000/todoList/createtodo
 router.post(
   "/createTodo",
